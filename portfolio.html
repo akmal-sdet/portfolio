@@ -1,11 +1,17 @@
+<!-- Bootstrap-Powered HTML -->
 
+<!-- Students:
+  1. Where is the HTML document drawing its styles from?
+
+  2. How does our browser know which element to style in which way? (ex: button face or background banner)
+-->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
 
   <meta charset="UTF-8">
-  <title>Home</title>
+  <title>Md Akmal Hossain - Bootcamp</title>
 
   <!-- We link our html to the Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -22,30 +28,31 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
       <!-- Our brand / logo -->
-      
+      <img src="images/symbol.jpg" class="img-fluid" alt="Responsive image">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      <div>
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand">My Search</a>
+
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      
+        </nav>
+      </div>
         <!-- Collapsible button -->
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
 
           <!-- The links of our navbar -->
-
-
-          <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand">My Search</a>
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </nav>
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
 
-          
           <!-- a Dropdown menu -->
           <li class="nav-item dropdown">
 
@@ -54,28 +61,59 @@
             </a>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="About.html">About</a>
-              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-              <a class="dropdown-item" href="contact.html">Contact</a>
-            </div>
-
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+                <a class="dropdown-item" href="About.html">About</a>
+                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                <a class="dropdown-item" href="contact.html">Contact</a>
+              </div>
 
           </li>
         </ul>
       </div>
     </nav>
-  </div>
 
 
+    <div class="card">
+      <div class="card-body">
 
-  
+      <h1>What is a Portfolio?</h1>
+      <p>A portfolio is a compilation of materials that exemplifies your beliefs, skills, qualifications, education, training and experiences. It provides insight into your personality and work ethic.</p>
+      <br>
+      <h3>Why should I have a portfolio?</h3>
+      <p>
+              The process of putting together a portfolio itself will help you become a more effective interviewee. You will be identifying the skills you have gained through your various experiences and how they relate to the career you are interested in. Choosing the most relevant experiences and putting them in an easily understood format will help you better articulate your skills and experiences when asked questions about your qualifications in an interview. A professional portfolio will also show an employer proof of your organizational, communication, and tangible career related skills.
+      </p>
+      <h3>
+              What should be included in my portfolio?
+      </h3>
+<br>
+<p>
+Save everything you create and decide later what you want to include in your portfolio. A portfolio is a sample of your career related skills and experiences and should be presented in your own creative style. The following is typically included in a career portfolio:
+</p>
+  <li>Statement of Originality: A paragraph stating that this is your
+       work and that it is confidential. It should also indicate if any 
+       parts of the portfolio should not be copied.
+          Example: Statement of Originality and ConfidentialityThis
+           portfolio is the work of James Cook. Please do not copy
+            without permission. Some of the exhibits, work samples,
+             and/or service samples are the proprietary property of 
+             the organization whose name appears on the document. Each
+              has granted permission for this product to be used as a demonstration of my work.</li>
+
+<li>Work Philosophy: A brief description of your beliefs about yourself and the industry.</li>
+<li>Career Goals: Your professional goals for the next five years.</li>
+<li>Skill Areas: Identify three to five of the major skill set areas you have that would be important for someone in your career field to have. Examples include: Management, Computer Skills, Public Relations, Leadership, Accounting, Communications, and Customer Service. Next, select or request letters of recommendation and specific work samples or projects that exemplify these skill sets. Sources of work samples include classroom projects, materials generated on the job or during an internship/co-op experience, materials from community service, volunteer work, campus clubs and organizations and professional memberships.</li>
+
+</div>
+</div>
+
+</div>
 
 
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
-
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 

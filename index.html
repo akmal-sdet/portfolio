@@ -5,7 +5,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Home</title>
+  <title>Md Akmal Hossain - Bootcamp</title>
 
   <!-- We link our html to the Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -22,30 +22,31 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
       <!-- Our brand / logo -->
-      
+      <img src="images/symbol.jpg" class="img-fluid" alt="Responsive image">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      <div>
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand">My Search</a>
+
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      
+        </nav>
+      </div>
         <!-- Collapsible button -->
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
 
           <!-- The links of our navbar -->
-
-
-          <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand">My Search</a>
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </nav>
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
 
-          
           <!-- a Dropdown menu -->
           <li class="nav-item dropdown">
 
@@ -54,40 +55,28 @@
             </a>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="About.html">About</a>
-              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-              <a class="dropdown-item" href="contact.html">Contact</a>
-            </div>
-
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+                <a class="dropdown-item" href="About.html">About</a>
+                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                <a class="dropdown-item" href="contact.html">Contact</a>
+              </div>
 
           </li>
         </ul>
       </div>
     </nav>
-  </div>
 
-
-
-  
-
-
-
-
-</div>
     <!-- Jumbotron element -->
     <div class="jumbotron">
 
       <!-- centered text -->
       <h1 class="text-center"><strong>Md Akmal Hossain</strong></h1>
       <h2 class="text-center">Welcome to my world</h2>
-      
+      <h3 class="text-center">Creative think</h3>
 
       <!-- button with predefined style rules -->
       <p class="text-center">
-        <a class="btn btn-primary btn-lg" href="#" role="button">
-          <span class="fa fa-envelope"></span> Learn more</a>
+        <a class="btn btn-primary btn-lg" href="https://www.facebook.com/akmal360" role="button">
+          <span class="fa fa-envelope"></span> Learn More</a>
       </p>
     </div>
 
@@ -98,23 +87,51 @@
       <div class="col-lg-6">
 
         <!-- centered image with thumbnail rules -->
-        <img class="img thumbnail center-block" src="image/me.jpg" alt="Akmal" width="40%">
-        <p>
-            I'm a very Energetic Person. My desire is to be a Business Magnet in the Software Industry
-        </p>
+        <img class="img thumbnail center-block" src="images/me.jpg" alt="myself" width="50%">
+        <p>I'm a very Energetic Person. My desire is to be a Business Magnet in the Software Industry.</p>
       </div>
 
       <!-- At large+ screens takes up half width (6/12) -->
       <div class="col-lg-6">
-        <img class="img thumbnail center-block" src="image/me2.jpg" alt="LittleCoder" width="50%">
-        <p>
-        With my parents. when my graduation ceremony happens.    
+        <img class="img thumbnail center-block" src="images/me2.jpg" alt="parents" width="50%">
+        <p>  
+            With my parents. when my graduation ceremony happens.
         </p>
       </div>
+
+
+
+      <div class="col-lg-4">
+        <img class="img thumbnail center-block" src="images/me3.jpg" alt="parents" width="50%">
+        <p>  
+            At NewYork city. NYPD 
+        </p>
+      </div>
+
+
+      <div class="col-lg-4">
+        <img class="img thumbnail center-block" src="images/me4.jpg" alt="parents" width="50%">
+        <p>  
+            With amazon contry manager
+        </p>
+      </div>
+
+
+      <div class="col-lg-4">
+        <img class="img thumbnail center-block" src="images/me5.jpg" alt="parents" width="50%">
+        <p>  
+            With author
+        </p>
+      </div>
+
     </div>
   </div>
 
-  
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 
