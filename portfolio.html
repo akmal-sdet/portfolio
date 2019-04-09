@@ -16,7 +16,8 @@
   <!-- We link our html to the Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/script/app.js"></script>
 </head>
 
 <body>
@@ -28,23 +29,28 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
       <!-- Our brand / logo -->
-      <img src="images/symbol.jpg" class="img-fluid" alt="Responsive image">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="assets/images/a.jpg" class="img-fluid" alt="Responsive image">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      <!-- Search code -->
 
       <div>
         <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand">My Search</a>
-
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <form class="form-inline" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+            <input name="q" class="form-control mr-sm-2" type="hidden" placeholder="Search" aria-label="Search">
+            <input name="qfront" type="search" required class="form-control mr-sm-2" placeholder="Google Site Search"
+              maxlength="100" />
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
-      
+
         </nav>
       </div>
-        <!-- Collapsible button -->
+
+      <!-- Collapsible button -->
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
 
@@ -56,58 +62,72 @@
           <!-- a Dropdown menu -->
           <li class="nav-item dropdown">
 
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Details
             </a>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="About.html">About</a>
-                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                <a class="dropdown-item" href="contact.html">Contact</a>
-              </div>
+              <a class="dropdown-item" href="About.html">About</a>
+              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+              <a class="dropdown-item" href="contact.html">Contact</a>
+            </div>
 
           </li>
         </ul>
       </div>
     </nav>
 
+    <hr>
 
-    <div class="card">
-      <div class="card-body">
+    <div class="row">
+      <a href="https://akmal360.github.io/Word-Guess-Game/">
+        <div class="column">
+          <img src="assets/images/cricket.jpg" alt="Cricket" style="width:100%">
+          <div class="projectTitle">
+            World Cup Cricket 2019
+          </div>
+        </div>
+      </a>
 
-      <h1>What is a Portfolio?</h1>
-      <p>A portfolio is a compilation of materials that exemplifies your beliefs, skills, qualifications, education, training and experiences. It provides insight into your personality and work ethic.</p>
-      <br>
-      <h3>Why should I have a portfolio?</h3>
-      <p>
-              The process of putting together a portfolio itself will help you become a more effective interviewee. You will be identifying the skills you have gained through your various experiences and how they relate to the career you are interested in. Choosing the most relevant experiences and putting them in an easily understood format will help you better articulate your skills and experiences when asked questions about your qualifications in an interview. A professional portfolio will also show an employer proof of your organizational, communication, and tangible career related skills.
-      </p>
-      <h3>
-              What should be included in my portfolio?
-      </h3>
-<br>
-<p>
-Save everything you create and decide later what you want to include in your portfolio. A portfolio is a sample of your career related skills and experiences and should be presented in your own creative style. The following is typically included in a career portfolio:
-</p>
-  <li>Statement of Originality: A paragraph stating that this is your
-       work and that it is confidential. It should also indicate if any 
-       parts of the portfolio should not be copied.
-          Example: Statement of Originality and ConfidentialityThis
-           portfolio is the work of James Cook. Please do not copy
-            without permission. Some of the exhibits, work samples,
-             and/or service samples are the proprietary property of 
-             the organization whose name appears on the document. Each
-              has granted permission for this product to be used as a demonstration of my work.</li>
+      <div class="row">
+        <a href="https://akmal360.github.io/unit-4-game/">
+          <div class="column">
+            <img src="assets/images/cristal.png" alt="Cricket" style="width:100%">
+            <div class="projectTitle">
+              CrystalsCollector Game
+            </div>
+          </div>
+        </a>
+      </div>
 
-<li>Work Philosophy: A brief description of your beliefs about yourself and the industry.</li>
-<li>Career Goals: Your professional goals for the next five years.</li>
-<li>Skill Areas: Identify three to five of the major skill set areas you have that would be important for someone in your career field to have. Examples include: Management, Computer Skills, Public Relations, Leadership, Accounting, Communications, and Customer Service. Next, select or request letters of recommendation and specific work samples or projects that exemplify these skill sets. Sources of work samples include classroom projects, materials generated on the job or during an internship/co-op experience, materials from community service, volunteer work, campus clubs and organizations and professional memberships.</li>
+      <div class="row">
+        <a href="https://akmal360.github.io/TriviaGame/">
+          <div class="column">
+            <img src="assets/images/jquery.jpg" alt="Cricket" style="width:100%">
+            <div class="projectTitle">
+              JQuery Trivia Game
+            </div>
+          </div>
+        </a>
+      </div>
 
-</div>
-</div>
+      <div class="row">
+        <a href="https://github.com/akmal360/GiphyAPI">
+          <div class="column">
+            <img src="assets/images/jquery.jpg" alt="Cricket" style="width:100%">
+            <div class="projectTitle">
+              GIphy API
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
 
-</div>
-
+  <footer>
+    &copy; Copyright 2019 Md Akmal Hossain
+  </footer>
 
   <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

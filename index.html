@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -10,7 +9,9 @@
   <!-- We link our html to the Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
+  <script src="assets/script/app.js"></script>
 </head>
 
 <body>
@@ -22,23 +23,29 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
       <!-- Our brand / logo -->
-      <img src="images/symbol.jpg" class="img-fluid" alt="Responsive image">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="assets/images/a.jpg" class="img-fluid" alt="Responsive image">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+
+      <!-- Search code -->
 
       <div>
         <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand">My Search</a>
-
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <form class="form-inline" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+            <input name="q" class="form-control mr-sm-2" type="hidden" placeholder="Search" aria-label="Search">
+            <input name="qfront" type="search" required class="form-control mr-sm-2" placeholder="Google Site Search"
+              maxlength="100" />
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
-      
+
         </nav>
       </div>
-        <!-- Collapsible button -->
+
+      <!-- Collapsible button -->
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
 
@@ -50,15 +57,16 @@
           <!-- a Dropdown menu -->
           <li class="nav-item dropdown">
 
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Details
             </a>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="About.html">About</a>
-                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                <a class="dropdown-item" href="contact.html">Contact</a>
-              </div>
+              <a class="dropdown-item" href="About.html">About</a>
+              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+              <a class="dropdown-item" href="contact.html">Contact</a>
+            </div>
 
           </li>
         </ul>
@@ -75,7 +83,7 @@
 
       <!-- button with predefined style rules -->
       <p class="text-center">
-        <a class="btn btn-primary btn-lg" href="https://www.facebook.com/akmal360" role="button">
+        <a class="btn btn-primary btn-lg" href="#" role="button">
           <span class="fa fa-envelope"></span> Learn More</a>
       </p>
     </div>
@@ -87,45 +95,48 @@
       <div class="col-lg-6">
 
         <!-- centered image with thumbnail rules -->
-        <img class="img thumbnail center-block" src="images/me.jpg" alt="myself" width="50%">
+        <img class="img thumbnail center-block" src="assets/images/me.jpg" alt="myself" width="50%">
         <p>I'm a very Energetic Person. My desire is to be a Business Magnet in the Software Industry.</p>
       </div>
 
       <!-- At large+ screens takes up half width (6/12) -->
       <div class="col-lg-6">
-        <img class="img thumbnail center-block" src="images/me2.jpg" alt="parents" width="50%">
-        <p>  
-            With my parents. when my graduation ceremony happens.
+        <img class="img thumbnail center-block" src="assets/images/me2.jpg" alt="parents" width="50%">
+        <p>
+          With my parents. when my graduation ceremony happens.
         </p>
       </div>
 
 
 
       <div class="col-lg-4">
-        <img class="img thumbnail center-block" src="images/me3.jpg" alt="parents" width="50%">
-        <p>  
-            At NewYork city. NYPD 
+        <img class="img thumbnail center-block" src="assets/images/me3.jpg" alt="parents" width="50%">
+        <p>
+          At NewYork city. NYPD
         </p>
       </div>
 
 
       <div class="col-lg-4">
-        <img class="img thumbnail center-block" src="images/me4.jpg" alt="parents" width="50%">
-        <p>  
-            With amazon contry manager
+        <img class="img thumbnail center-block" src="assets/images/me4.jpg" alt="parents" width="50%">
+        <p>
+          With amazon contry manager
         </p>
       </div>
 
 
       <div class="col-lg-4">
-        <img class="img thumbnail center-block" src="images/me5.jpg" alt="parents" width="50%">
-        <p>  
-            With author
+        <img class="img thumbnail center-block" src="assets/images/me5.jpg" alt="parents" width="50%">
+        <p>
+          With author
         </p>
       </div>
 
     </div>
   </div>
+  <footer>
+    &copy; Copyright 2019 Md Akmal Hossain
+  </footer>
 
   <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
