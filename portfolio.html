@@ -10,130 +10,152 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <title>Md Akmal Hossain - Bootcamp</title>
+    <meta charset="UTF-8">
+    <title>Md Akmal Hossain - Bootcamp</title>
 
-  <!-- We link our html to the Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script src="assets/script/app.js"></script>
+    <!-- We link our html to the Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/script/app.js"></script>
 </head>
 
 <body>
 
-  <!-- Container Div -->
-  <div class="container">
+    <!-- Container Div -->
+    <div class="container">
 
-    <!-- Section 1: Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Section 1: Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <!-- Our brand / logo -->
-      <img src="assets/images/a.jpg" class="img-fluid" alt="Responsive image">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Our brand / logo -->
+            <img src="assets/images/a.jpg" class="img-fluid" alt="Responsive image">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- Search code -->
+            <!-- Search code -->
 
-      <div>
-        <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand">My Search</a>
-          <form class="form-inline" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
-            <input name="q" class="form-control mr-sm-2" type="hidden" placeholder="Search" aria-label="Search">
-            <input name="qfront" type="search" required class="form-control mr-sm-2" placeholder="Google Site Search"
-              maxlength="100" />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+            <div>
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand">My Search</a>
+                    <form class="form-inline" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+                        <input name="q" class="form-control mr-sm-2" type="hidden" placeholder="Search" aria-label="Search">
+                        <input name="qfront" type="search" required class="form-control mr-sm-2" placeholder="Google Site Search" maxlength="100" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
 
-        </nav>
-      </div>
+                </nav>
+            </div>
 
-      <!-- Collapsible button -->
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
+            <!-- Collapsible button -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
 
-          <!-- The links of our navbar -->
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
+                    <!-- The links of our navbar -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
 
-          <!-- a Dropdown menu -->
-          <li class="nav-item dropdown">
+                    <!-- a Dropdown menu -->
+                    <li class="nav-item dropdown">
 
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Details
             </a>
 
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="About.html">About</a>
-              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-              <a class="dropdown-item" href="contact.html">Contact</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="About.html">About</a>
+                            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <hr>
+
+        <div class="row">
+            <a href="https://akmal360.github.io/Word-Guess-Game/">
+                <div class="column">
+                    <img src="assets/images/cricket.jpg" alt="Cricket" style="width:100%">
+                    <div class="projectTitle">
+                        World Cup Cricket 2019
+                    </div>
+                </div>
+            </a>
+
+            <div class="row">
+                <a href="https://akmal360.github.io/unit-4-game/">
+                    <div class="column">
+                        <img src="assets/images/cristal.png" alt="Cricket" style="width:100%">
+                        <div class="projectTitle">
+                            CrystalsCollector Game
+                        </div>
+                    </div>
+                </a>
             </div>
 
-          </li>
-        </ul>
-      </div>
-    </nav>
+            <div class="row">
+                <a href="https://akmal360.github.io/TriviaGame/">
+                    <div class="column">
+                        <img src="assets/images/jquery.jpg" alt="Cricket" style="width:100%">
+                        <div class="projectTitle">
+                            JQuery Trivia Game
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-    <hr>
+            <div class="row">
+                <a href="https://akmal360.github.io/GiphyAPI/">
+                    <div class="column">
+                        <img src="assets/images/GiphyAPI.jpg" alt="GiphyAPI" style="width:100%">
+                        <div class="projectTitle">
+                            GIphy API
+                        </div>
+                    </div>
+                </a>
+            </div>
 
-    <div class="row">
-      <a href="https://akmal360.github.io/Word-Guess-Game/">
-        <div class="column">
-          <img src="assets/images/cricket.jpg" alt="Cricket" style="width:100%">
-          <div class="projectTitle">
-            World Cup Cricket 2019
-          </div>
+            div class="row">
+            <a href="https://salty-bayou-21828.herokuapp.com/">
+                <div class="column">
+                    <img src="assets/images/FriendFinder.jpg" alt="FriendFinder" style="width:100%">
+                    <div class="projectTitle">
+                        GIphy API
+                    </div>
+                </div>
+            </a>
         </div>
-      </a>
 
-      <div class="row">
-        <a href="https://akmal360.github.io/unit-4-game/">
-          <div class="column">
-            <img src="assets/images/cristal.png" alt="Cricket" style="width:100%">
-            <div class="projectTitle">
-              CrystalsCollector Game
+        div class="row">
+        <a href="https://warm-oasis-42691.herokuapp.com/index">
+            <div class="column">
+                <img src="assets/images/Burger.png" alt="Burger" style="width:100%">
+                <div class="projectTitle">
+                    GIphy API
+                </div>
             </div>
-          </div>
         </a>
-      </div>
-
-      <div class="row">
-        <a href="https://akmal360.github.io/TriviaGame/">
-          <div class="column">
-            <img src="assets/images/jquery.jpg" alt="Cricket" style="width:100%">
-            <div class="projectTitle">
-              JQuery Trivia Game
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="row">
-        <a href="https://github.com/akmal360/GiphyAPI">
-          <div class="column">
-            <img src="assets/images/jquery.jpg" alt="Cricket" style="width:100%">
-            <div class="projectTitle">
-              GIphy API
-            </div>
-          </div>
-        </a>
-      </div>
     </div>
-  </div>
 
-  <footer>
-    &copy; Copyright 2019 Md Akmal Hossain
-  </footer>
 
-  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </div>
+    </div>
+
+    <footer>
+        &copy; Copyright 2019 Md Akmal Hossain
+    </footer>
+
+    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 
