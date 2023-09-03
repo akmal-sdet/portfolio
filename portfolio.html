@@ -11,7 +11,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Md Akmal Hossain - Bootcamp</title>
+    <title>Georgia Tech - Bootcamp</title>
 
     <!-- We link our html to the Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -26,55 +26,28 @@
     <div class="container">
 
         <!-- Section 1: Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
 
-            <!-- Our brand / logo -->
-            <a href="index.html">
-                <img src="assets/images/a.jpg" href="index.html" class="img-fluid" alt="Responsive image">
-
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-            <!-- Search code -->
-
-            <div>
-                <nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand">My Search</a>
-                    <form class="form-inline" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
-                        <input name="q" class="form-control mr-sm-2" type="hidden" placeholder="Search" aria-label="Search">
-                        <input name="qfront" type="search" required class="form-control mr-sm-2" placeholder="Google Site Search" maxlength="100" />
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-
-                </nav>
-            </div>
-
-            <!-- Collapsible button -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-
-                    <!-- The links of our navbar -->
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <!-- a Dropdown menu -->
-                    <li class="nav-item dropdown">
-
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Details
-            </a>
-
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="About.html">About</a>
-                            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                            <a class="dropdown-item" href="contact.html">Contact</a>
-                        </div>
-
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                    </ul>
                 </ul>
+                <form class="form-inline" action="http://www.google.com/search" method="get"
+                    onSubmit="Gsitesearch(this)">
+                    <input name="q" class="form-control mr-sm-2" type="hidden" placeholder="Search" aria-label="Search">
+                    <input name="qfront" type="search" required class="form-control mr-sm-2"
+                        placeholder="Google Site Search" maxlength="100" />
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
         </nav>
 
@@ -91,7 +64,7 @@
             </a>
 
             <div class="row">
-                <a href="https://akmal360.github.io/unit-4-game/">
+                <a href="https://akmalscode.github.io/unit-4-game/">
                     <div class="column">
                         <img src="assets/images/cristal.png" alt="Cricket" style="width:100%">
                         <div class="projectTitle">
@@ -102,7 +75,7 @@
             </div>
 
             <div class="row">
-                <a href="https://akmal360.github.io/TriviaGame/">
+                <a href="https://akmalscode.github.io/TriviaGame/">
                     <div class="column">
                         <img src="assets/images/jquery.jpg" alt="Cricket" style="width:100%">
                         <div class="projectTitle">
@@ -113,7 +86,7 @@
             </div>
 
             <div class="row">
-                <a href="https://akmal360.github.io/GiphyAPI/">
+                <a href="https://akmalscode.github.io/GiphyAPI/">
                     <div class="column">
                         <img src="assets/images/GiphyAPI.jpg" alt="GiphyAPI" style="width:100%">
                         <div class="projectTitle">

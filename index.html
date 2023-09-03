@@ -3,99 +3,74 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <title>Md Akmal Hossain - Bootcamp</title>
+  <meta charset="UTF-8">
+  <title>Georgia Tech - Bootcamp</title>
 
-    <!-- We link our html to the Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!-- We link our html to the Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    <script src="assets/script/app.js"></script>
+  <script src="assets/script/app.js"></script>
 </head>
 
 <body>
 
-    <!-- Container Div -->
-<div class="container">
 
-        <!-- Section 1: Navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-            <!-- Our brand / logo -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
 
-            <a href="index.html">
-                <img src="assets/images/a.jpg" href="index.html" class="img-fluid" alt="Responsive image">
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </ul>
+      </ul>
+      <form class="form-inline" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+        <input name="q" class="form-control mr-sm-2" type="hidden" placeholder="Search" aria-label="Search">
+        <input name="qfront" type="search" required class="form-control mr-sm-2" placeholder="Google Site Search"
+          maxlength="100" />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
-            </a>
+  <!-- Search code -->
 
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </nav>
-</div>
-
-            <!-- Search code -->
-
-            <div>
-                <nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand">My Search</a>
-                    <form class="form-inline" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
-                        <input name="q" class="form-control mr-sm-2" type="hidden" placeholder="Search" aria-label="Search">
-                        <input name="qfront" type="search" required class="form-control mr-sm-2" placeholder="Google Site Search" maxlength="100" />
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-
-                </nav>
-            </div>
-
-            <!-- Collapsible button -->
- 
+  <!-- Collapsible button -->
 
 
-        <!-- Jumbotron element -->
-        <div class="jumbotron">
 
-            <!-- centered text -->
-            <h1 class="text-center"><strong>Md Akmal Hossain</strong></h1>
-            <h2 class="text-center">Welcome API World</h2>
-            <h3 class="text-center">Creative thinker</h3>
+  <!-- Jumbotron element -->
+  <div class="jumbotron">
 
-            <!-- button with predefined style rules -->
-            <p class="text-center">
-                <a class="btn btn-primary btn-lg" href="#" role="button">
-                    <span class="fa fa-envelope"></span> Learn More</a>
-            </p>
-        </div>
+    <!-- centered text -->
+    <h1 class="text-center"><strong>Md Akmal Hossain</strong></h1>
+    <h2 class="text-center">Game Project Portfolio</h2>
 
-        <!-- a Bootstrap row with columns -->
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="About.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-    </ul>
+    <!-- button with predefined style rules -->
+    <p class="jumbotron">
+      <a class="btn btn-success btn-lg btn-block" href="portfolio.html">
+        <span class=""></span>Cliek Here</a>
+    </p>
   </div>
-    <footer>
-        &copy; Copyright 2019 Md Akmal Hossain
-    </footer>
 
-    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- a Bootstrap row with columns -->
+  <footer>
+    &copy; Copyright 2023 Md Akmal Hossain
+  </footer>
 
-    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 
